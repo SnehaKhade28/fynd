@@ -4,9 +4,7 @@
 //npm install alert
 //function1-over/parent 
 var alert=require('alert');
- function init()                      
-                
- 
+ function init()                
 {//initialization
     var name ='Chrome'; // name is a local variable created by init
     function displayName() { // displayname is the inner function, a closure

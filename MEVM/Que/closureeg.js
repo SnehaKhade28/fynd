@@ -13,8 +13,7 @@ function outerScope() {
                     console.log(x);
                 };
             })(i);
-            
-            
+        
         }
     }
     innerScope();
