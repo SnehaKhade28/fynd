@@ -1,5 +1,5 @@
 var a = "Abc";
-            eg = document.getElementById("test");
+          eg = document.getElementById("test");
             eg.innerHTML = a;
 
             //Difference between var and let
