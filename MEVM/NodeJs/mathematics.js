@@ -5,3 +5,5 @@ var z=(x+y)*30; // simple multiplication
 console.log(z); // adding data to console
 Math.pow(2,3);
 console.log(Math.pow(2,3));
+
+
