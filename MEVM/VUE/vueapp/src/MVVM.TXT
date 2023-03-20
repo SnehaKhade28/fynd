@@ -1,0 +1,15 @@
+There are three core components in the MVVM pattern: 
+1)the model
+2)the view and 
+3)the view model. 
+Each serves a distinct purpose. 
+It shows the relationships between the three components.
+
+#VIEW:
+The view is responsible for defining the structure, layout, and appearance of what the user sees on screen. Ideally, each view is defined in XAML, with a limited code-behind that does not contain business logic.
+
+#MODEL-VIEW:
+The view model implements properties and commands to which the view can data bind to, and notifies the view of any state changes through change notification events.
+
+#MODEL:
+Model classes are non-visual classes that encapsulate the app's data. Therefore, the model can be thought of as representing the app's domain model, which usually includes a data model along with business and validation logic.
